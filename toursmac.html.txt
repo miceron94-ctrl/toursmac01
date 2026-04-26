@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tours Around the World</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 0; background: #f5f7fa; color: #333; }
+    header { background: linear-gradient(120deg, #0f2027, #203a43, #2c5364); color: #fff; padding: 40px 20px; }
+    nav a { color: #fff; margin-right: 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 30px 20px; margin: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+    h2 { color: #2c5364; }
+    h3 { color: #203a43; }
+    ul { line-height: 1.7; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    iframe { width: 100%; height: 215px; border-radius: 8px; }
+    footer { background: #203a43; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tours Around the World</h1>
+  <p>Discover cultures, food, and unforgettable experiences around the world.</p>
+  <nav>
+    <a href="#china">China</a>
+    <a href="#france">France</a>
+    <a href="#japan">Japan</a>
+    <a href="#colombia">Colombia</a>
+    <a href="#blog">Blogs</a>
+    <a href="#videos">Videos</a>
+  </nav>
+</header>
+
+<section id="china">
+  <h2>Tour in China</h2>
+  <ul>
+    <li><strong>Airlines:</strong> Air China, China Eastern, China Southern.</li>
+    <li><strong>Services:</strong> Guided tours, high-speed train, Great Wall visits, 4 and 5 star hotels.</li>
+    <li><strong>Important dates:</strong> Chinese New Year (January–February), Mid-Autumn Festival (September).</li>
+    <li><strong>Typical food:</strong> Peking duck, dim sum, noodles, fried rice.</li>
+    <li><strong>Customs:</strong> Respect for elders, use of chopsticks, punctuality.</li>
+  </ul>
+</section>
+
+<section id="france">
+  <h2>Tour in France</h2>
+  <ul>
+    <li><strong>Airlines:</strong> Air France, Lufthansa, Iberia.</li>
+    <li><strong>Services:</strong> Cultural tours, museums, river cruises.</li>
+    <li><strong>Important dates:</strong> Bastille Day (July 14).</li>
+    <li><strong>Typical food:</strong> Croissant, cheese, baguette, escargots.</li>
+    <li><strong>Customs:</strong> Formal greetings and love for art and food.</li>
+  </ul>
+</section>
+
+<section id="japan">
+  <h2>Tour in Japan</h2>
+  <ul>
+    <li><strong>Airlines:</strong> Japan Airlines, ANA.</li>
+    <li><strong>Services:</strong> Bullet trains, traditional hotels, bilingual guides.</li>
+    <li><strong>Important dates:</strong> Cherry blossom season (March–April).</li>
+    <li><strong>Typical food:</strong> Sushi, ramen, tempura.</li>
+    <li><strong>Customs:</strong> Bowing and removing shoes indoors.</li>
+  </ul>
+</section>
+
+<section id="colombia">
+  <h2>Tour in Colombia</h2>
+  <ul>
+    <li><strong>Airlines:</strong> Avianca, LATAM.</li>
+    <li><strong>Services:</strong> Cultural tourism, beaches, coffee tours.</li>
+    <li><strong>Important dates:</strong> Flower Festival (August).</li>
+    <li><strong>Typical food:</strong> Bandeja paisa, arepas, sancocho.</li>
+    <li><strong>Customs:</strong> Friendly people, music, and celebrations.</li>
+  </ul>
+</section>
+
+<section id="blog">
+  <h2>Travel Blogs (Previous Work)</h2>
+  <article>
+    <h3>My experience traveling to China</h3>
+    <p>This blog talks about my trip to Beijing and Shanghai, focusing on culture, food, and technology.</p>
+  </article>
+  <article>
+    <h3>Discovering Europe</h3>
+    <p>This text compares daily life, art, and history in France and other European countries.</p>
+  </article>
+</section>
+
+<section id="videos">
+  <h2>Travel Videos (Previous Work)</h2>
+  <div class="grid">
+    https://www.youtube.com/embed/dummy1
+    <iframe src="https://www.youtube.com/embed/dummy2" title="Europe Travel Video"></iframe>
+  </div>
+</section>
+
+<section id="conditional">
+  <h2>Conditional Type 3 – Examples</h2>
+  <p>If I had booked the tour earlier, I would have saved more money.</p>
+  <p>If we had visited China during the festival, we would have seen traditional celebrations.</p>
+  <p>If she had tried the local food, she would have understood the culture better.</p>
+  <p>If they had chosen another airline, they would have arrived later.</p>
+  <p>If we had known the customs, we would have avoided problems.</p>
+  <p>If he had watched the travel video before, he would have planned better.</p>
+  <p>If the group had arrived on time, they would have visited another city.</p>
+  <p>If I had learned some Chinese words, I would have spoken more easily.</p>
+  <p>If we had stayed longer in France, we would have visited more museums.</p>
+  <p>If she had read the blog first, she would have packed better clothes.</p>
+</section>
+
+<footer>
+  <p>© 2026 Tours Around the World | Academic Project</p>
+</footer>
+
+</body>
